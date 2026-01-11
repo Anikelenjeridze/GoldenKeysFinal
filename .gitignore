@@ -34,28 +34,9 @@ env/
 .vscode/
 .idea/
 *.swp
-*.swo
+.swo
 *~
 .DS_Store
-
-# Data files (if large)
-*.csv
-*.xlsx
-*.xls
-data/raw/*.csv
-data/processed/*.csv
-
-# But keep example data or small files
-!data/raw/.gitkeep
-!data/processed/.gitkeep
-
-# Reports and outputs
-reports/figures/*.png
-reports/figures/*.jpg
-reports/*.pdf
-
-# Keep directory structure
-!reports/figures/.gitkeep
 
 # OS generated files
 .DS_Store
@@ -80,3 +61,6 @@ htmlcov/
 
 # mypy
 .mypy_cache/
+
+# IMPORTANT: Allow project data and outputs
+# (Removed the blocks for CSV and PNG files)
